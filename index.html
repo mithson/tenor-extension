@@ -3,23 +3,23 @@
 
 <body>
     <link rel="stylesheet" href="./style.css">
-    <div class="search">
+    <div class="search"> 
         <input type="text" name="input" id="input" placeholder="emotions or text for gif" value="freaking">
     </div>
     <div class="tab">
-        <button class="tablinks" onclick="openType(event, 'tinygif')" id="defaultOpen">tinygif</button>
-        <button class="tablinks" onclick="openType(event, 'tinywebm')">tinywebm</button>
-        <button class="tablinks" onclick="openType(event, 'nanowebm')">nanowebm</button>
-        <button class="tablinks" onclick="openType(event, 'mp4')">mp4</button>
-        <button class="tablinks" onclick="openType(event, 'tinymp4')">tinymp4</button>
-        <button class="tablinks" onclick="openType(event, 'loopedmp4')">loopedmp4</button>
-        <button class="tablinks" onclick="openType(event, 'webm')">webm</button>
-        <button class="tablinks" onclick="openType(event, 'nanomp4')">nanomp4</button>
-        <button class="tablinks" onclick="openType(event, 'nanogif')">nanogif</button>
-        <button class="tablinks" onclick="openType(event, 'mediumgif')">mediumgif</button>
-        <button class="tablinks" onclick="openType(event, 'gif')">gif</button>
-
+        <button class="tablinks" id="defaultOpen">tinygif</button>
+        <button class="tablinks">tinywebm</button>
+        <button class="tablinks">nanowebm</button>
+        <button class="tablinks">mp4</button>
+        <button class="tablinks">tinymp4</button>
+        <button class="tablinks">loopedmp4</button>
+        <button class="tablinks">webm</button>
+        <button class="tablinks">nanomp4</button>
+        <button class="tablinks">nanogif</button>
+        <button class="tablinks">mediumgif</button>
+        <button class="tablinks">gif</button>
     </div>
+    
 
     <div id="tinygif" class="tabcontent">
         <h2># tinygif</h2>
@@ -58,7 +58,8 @@
     <!-- <p id='top_10_gifs'></p> -->
     <div id="gifContainer"></div>
     
-    <script src="./script.js"></script>
+    <script src="popup.js"></script>
+    <script src="default.js"></script>
 </body>
 
 </html>

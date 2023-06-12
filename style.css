@@ -1,5 +1,8 @@
-
-body {font-family: Arial;}
+body {
+  font-family: system-ui;
+  margin: 0 auto;display: block;
+  width: 30rem;height: auto;
+}
 
 /* Style the tab */
 .tab {
@@ -17,12 +20,12 @@ body {font-family: Arial;}
 
 /* Change background color of buttons on hover */
 .tab button:hover {
-  background-color: #ddd;
+  background-color: grey;
 }
 
 /* Create an active/current tablink class */
 .tab button.active {
-  background-color: #ccc;
+  background-color: blue;
 }
 
 /* Style the tab content */
@@ -53,3 +56,4 @@ body {font-family: Arial;}
     width: 30%;
 }
 /*  */
+
